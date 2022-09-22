@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.hero {
+    background-image: url(../img/botellasprincipal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size:  3rem;
+    }
+    .hero {
+        height: 55rem;
+    }
+    .producto img {
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
